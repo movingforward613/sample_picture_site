@@ -75,22 +75,6 @@ a {
     }
 }
 
-
-/***********************************************************************
- *  Cover
- **********************************************************************/
-/* .container {
-    /*show heigh: auto
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.cover {
-    width: 50vh;
-} */
-
 /***********************************************************************
  *  Grid Panel
  **********************************************************************/
@@ -101,27 +85,13 @@ a {
     align-self: auto;
 }
 
-/* img{
-  width: 300px;
-  height: 180px;
-} */
-
 .box {
-    background-color: #444;
-    padding: 60px;
+    background-color: #81D196;
+    padding: 50px;
     margin: 20px;
 }
-/*
-.box > img {
-    width: 100%;
-} */
 
 .box:hover {
-    /* -webkit-transform: rotate(-7deg);
-    -moz-transform: rotate(-7deg);
-    -o-transform: rotate(-7deg);
-    transform: rotate(-7deg); */
-
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
