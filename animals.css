@@ -1,0 +1,42 @@
+body {
+    margin: 0 auto;
+    font-family: Arial;
+}
+
+.welcome {
+    color: #0D4D4D;
+    height: 50vh;
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.carousel {
+    z-index: -1;
+}
+
+.carousel-inner {
+    width: 105vh;
+    height: auto;
+}
+
+.centered-box {
+    display: flex;
+    justify-content: center;
+}
+
+p.anchor {
+  /* display: block;
+  top: -500px; */
+  scroll-margin-top: 70px;
+}
